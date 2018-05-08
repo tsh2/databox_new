@@ -43,7 +43,7 @@ seedManifest() {
 
 installStores() {
   log "Installing Stores"
-  OUTPUT=$(docker pull databoxsystems/core-store:${DATABOX_VERSION}; docker tag databoxsystems/core-store:${DATABOX_VERSION} core-store:${DATABOX_VERSION})
+  OUTPUT=$(docker pull databoxsystems2/core-store:${DATABOX_VERSION}; docker tag databoxsystems2/core-store:${DATABOX_VERSION} core-store:${DATABOX_VERSION})
   test_assert $? 0 "Pull core-store " "$OUTPUT"
 }
 
