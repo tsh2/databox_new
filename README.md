@@ -27,7 +27,7 @@ running.
 cd databox
 ./databox-start
 ```
-The above script pulls Databox pre-build images published on [Docker hub](<https://hub.docker.com/r/databoxsystems>) and run  Databox on your local machine.
+The above script pulls Databox pre-build images published on [Docker hub](<https://hub.docker.com/r/databoxsystems2>) and run  Databox on your local machine.
 
 Once it's started, point a web browser at <http://127.0.0.1> and follow the instructions to configure your HTTPS certificates to access Databox UI securely (using a web browser <https://127.0.0.1>, or the iOS and Android app).
 
