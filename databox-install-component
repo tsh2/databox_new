@@ -72,7 +72,7 @@ fi
 COMPONENT=$1
 
 if [[ ${COMPONENT} != *"/"* ]]; then
-  COMPONENT="me-box/${COMPONENT}"
+  COMPONENT="tsh2/${COMPONENT}"
 fi
 
 oIFS="$IFS"
